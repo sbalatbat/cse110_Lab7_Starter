@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CSE 110 Shop</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/styles/main.css">
+
+  <!-- Web Components -->
+  <script src="./assets/components/product-item.js" type="module"></script>
+
+  <!-- Main Scripts -->
+  <script src="./assets/scripts/storage.js" type="module"></script>
+  <script src="./assets/scripts/main.js" type="module"></script>
+</head>
+
+<body>
+  <header>
+    <!-- Nav Bar -->
+    <nav>
+      <!-- Home Icon -->
+      <div class="logo">
+        <span class="icon" id="shop-icon"></span>
+        <span class="title"><a href="/">CSE 110 Shop</a></span>
+      </div>
+      <div class="nav-link">
+        <p> Cart
+          <span class="icon" id="cart-icon"></span>
+          <span id='cart-count'>0</span>
+        </p>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <!-- Welcome Text -->
+    <h1> Welcome to the CSE 110 Shop! </h1>
+
+    <!-- Product List -->
+    <section class="flex-container" id="product-list">
+      <!-- Insert Products Here -->
+    </section>
+
+    <template>
+      <!-- Sample Product Item -->
+      <!-- <div class="product">
+        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+          alt="Fjallraven - Foldstack No. 1 Backpack, Fits 15 Laptops" width=200>
+        <p class="title">Fjallraven - Foldstack No. 1 Backpack, Fits 15 Laptops</p>
+        <p class="price">$109.95</p>
+        <button onclick="alert('Added to Cart!')">Add to Cart</button>
+      </div> -->
+    </template>
+  </main>
+</body>
+
+</html>
